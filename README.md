@@ -1,5 +1,2 @@
 # react_profile
-
-npm i
-
-npm start
+updated personal profile hosted at zhaocs.dev
