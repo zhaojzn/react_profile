@@ -44,3 +44,15 @@ section p{
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
+.iconDiv{
+  display: block;
+  height: 10vh;
+  left: 100vh;
+}
+
+.iconDiv p{
+
+  color: red;
+}
+

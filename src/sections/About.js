@@ -1,5 +1,6 @@
 import { useNav } from "../hooks/useNav"
 import github from "../images/github.png"
+
 const About = () => {
   const aboutRef = useNav("About")
 
