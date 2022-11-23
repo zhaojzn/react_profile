@@ -45,14 +45,23 @@ section p{
   margin-bottom: 2rem;
 }
 
-.iconDiv{
-  display: fixed;
-  justify-content: left;
+.iconPadding{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 20vh;
-  width: 200vh;
+  height: 25%;
+  width: 100%;
+
+}
+
+.iconDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .iconDiv p{

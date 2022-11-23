@@ -6,10 +6,10 @@ class Experiences extends Component {
     render() {
 
         return(
-            <div>
+            <div className='iconPadding'>
                 {experiences.map((experiencesData, index) =>{
                     return(
-                        <div key={experiencesData.name} className='iconDiv'>
+                        <div key={experiencesData.name} className="iconDiv">
                             <p>{experiencesData.name}</p>
                             <img src={experiencesData.image} className="iconImage" alt={experiencesData.name}></img>
                         </div>
