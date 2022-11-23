@@ -46,13 +46,22 @@ section p{
 }
 
 .iconDiv{
-  display: block;
-  height: 10vh;
-  left: 100vh;
+  display: fixed;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 20vh;
+  width: 200vh;
 }
 
 .iconDiv p{
-
-  color: red;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
+.iconImage{
+  height: 5rem;
+  width: 5rem;
+  margin: 1;
+}
