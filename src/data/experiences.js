@@ -1,12 +1,11 @@
 import javascript from "../images/javascript.png"
-import python from "../images/python.png"
+//import python from "../images/python.png"
 export const experiences = [
     {
-        "name": "javascript",
+        "name": "Personal Profile",
+        "description": "A personal profile built with react to display experiences, projects, and resume",
         "image": javascript
     },
-    {
-        "name": "python",
-        "image": python
-    },
+
+
 ]

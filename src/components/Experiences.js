@@ -4,17 +4,17 @@ import { experiences } from "../data/experiences.js"
 
 class Experiences extends Component {
     render() {
-
         return(
             <div className='iconPadding'>
                 {experiences.map((experiencesData, index) =>{
                     return(
                         <div key={experiencesData.name} className="iconDiv">
-                            <p>{experiencesData.name}</p>
-                            <img src={experiencesData.image} className="iconImage" alt={experiencesData.name}></img>
+                            <h3>{experiencesData.name}</h3>
+                            <br/>
+                            <p1>{experiencesData.description}</p1>
                         </div>
                     )
-                })}
+                })} 
             </div>
         )
     }

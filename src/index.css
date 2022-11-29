@@ -8,6 +8,8 @@ ul {
   list-style: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -27,17 +29,37 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 50rem;
   background: #222222;
 }
 .secondary-section {
   background: #000;
+}
+
+.experience-section{
+  background: #000;
+  height: 75rem;
+
 }
 section h2 {
   color: #fff;
   font-size: 5rem;
   margin-bottom: 2rem;
 }
+
+section h3 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+section h1 {
+  color: #fff;
+  font-size: 5rem;
+  margin-bottom: 5rem;
+  margin-top: -20rem;
+}
+
 
 section p{
   color: #fff;
@@ -46,31 +68,34 @@ section p{
 }
 
 .iconPadding{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   height: 25%;
-  width: 100%;
+  width: 80%;
 
 }
 
 .iconDiv{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 50px;
 }
 
 .iconDiv p{
   color: white;
+  font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.iconDiv p1{
+  color: white;
+  font-size: 1.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  font-weight: 300;
+  line-height: 2rem;
 }
 
 .iconImage{
-  height: 5rem;
-  width: 5rem;
-  margin: 1;
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem;
 }
+
+
