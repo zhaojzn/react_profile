@@ -74,10 +74,13 @@ section p{
 }
 
 .iconDiv{
-  padding: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
 }
 
 .iconDiv p{
+  display: flex;
   color: white;
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
@@ -99,3 +102,29 @@ section p{
 }
 
 
+
+.tag {
+  align-items: center!important;
+  border-radius: 0.75rem!important;
+  display: flex!important;
+  border-radius: 25px;
+  background: grey;
+  padding: 20px;
+  width: 7rem;
+  height: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.tag p{
+  --tw-text-opacity: 1!important;
+  color: rgb(255 255 255/var(--tw-text-opacity))!important;
+  font-family: sans-serif;
+  font-size: 1rem!important;
+  font-weight: 300!important;
+  line-height: 1rem!important;
+  margin: 0!important;
+}
+.displayTag{
+  display: flex;
+}
