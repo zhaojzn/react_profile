@@ -29,7 +29,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 50rem;
+  height: 100vh;
   background: #222222;
 }
 .secondary-section {
@@ -38,7 +38,7 @@ section {
 
 .experience-section{
   background: #000;
-  height: 75rem;
+  height: 125vh;
 
 }
 section h2 {

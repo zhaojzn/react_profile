@@ -1,3 +1,4 @@
+import Amount from "../components/Amount"
 import { useNav } from "../hooks/useNav"
 import github from "../images/github.png"
 
@@ -8,6 +9,7 @@ const About = () => {
     <section ref={aboutRef} id="aboutSection">
       <h2>Jason Zhao</h2>
       <p>just your average highschool student</p>
+      <Amount/>
       <a href="https://github.com/zhaojzn">
       <img src={github} alt="Logo"/>
       </a>
